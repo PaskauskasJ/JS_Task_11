@@ -26,7 +26,7 @@ async function deleteItem(url) {
         "Content-type": "application/json",
       },
     });
-    alert(response.ok ? "Produktas istrintas" : "Klaida");
+    alert(response.ok ? "Eilutė panaikinta" : "Klaida");
 
     window.location.reload();
   } catch (error) {
